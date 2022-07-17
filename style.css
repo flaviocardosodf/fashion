@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.topo {
+    background-color: #152b39;
+    position: relative;
+}
+
+.logo {
+    margin: 10px 0 0 180px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+header nav ul {
+    text-align: right;
+    margin-right: 40px;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #425564;
+    transition: 400ms;
+}
+
+header nav li a:hover {
+    color: #c7c7c7;
+}
+
+.texto h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.texto p {
+    text-align: center;
+    color: #6e6e6e;
+    padding: 0 100px;
+    margin-bottom: 100px;
+    line-height: 2;
+}
+
+.imagens {
+   padding: 0 100px 50px 100px; 
+   color: #6e6e6e;
+   overflow: auto;
+}
+
+.img-modelo {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.imagens h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #353535;
+    font-weight: bolder;
+}
+
+.sobre {
+    background-image: url(img/bg_detalhe.png);
+    background-color: #003d52;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 50px 100px;
+    color: white;
+}
+
+.sobre h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.sobre p {
+    width: 60%;
+    line-height: 1.5;
+}
+
+.contato {
+    text-align: center;
+    text-transform: uppercase;
+    color: #143f52;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.contato address {
+    font-style: normal;
+}
+
+.map {
+    width: 100%;
+    height: 450px;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    background-color: #152b39;
+    color: #c7c7c7;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
